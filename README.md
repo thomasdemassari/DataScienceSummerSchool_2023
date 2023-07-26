@@ -1,1 +1,1 @@
-# Data_science_summer_school_2023
+# DataScienceSummerSchool_2023
