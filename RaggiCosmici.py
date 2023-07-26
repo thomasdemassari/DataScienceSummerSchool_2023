@@ -53,7 +53,9 @@ for i in range(len(calendario)):
                 if (data[1] > 12):
                     raise Exception(data[1], "non è un mese valido")
                 else:
-                    print("Riconosciuto!", calendario[i])
+                    date = calendario[i]
+                    tpl = (date[0],date[1],data[2])
+                    print("Riconosciuto!", tpl)
     except ValueError:
         print("La data non è scritta correttamente")
     except Exception as errore:
